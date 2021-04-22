@@ -35,7 +35,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -54,9 +54,25 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <div className={clsx('col col--6')}>
+            <div className="text--right">
+              <img src="img/shake.gif" />
+            </div>
+          </div>
+          <div className={clsx('col col--6')}>
+            <div className="text--center">
+              <h3>Shakespeare Ipsum</h3>
+              <p>
+                to be, or not to be, thats the question Will plead like angels, trumpet-tongued, against The little Love-god lying once asleep So the life that died with shame Hath had no power yet upon thy beauty To fright the souls of fearful adversaries,
+
+                To think it was so? o, give me thy hand, Whether 'tis nobler in the mind to suffer The fair ophelia! nymph, in thy orisons Of being taken by the insolent foe
+
+                Singe my white head! and thou, all-shaking thunder, With worms that are thy chamber-maids; o, here Did not attend him as we rode? I think
+
+                Whilst many nymphs that vow'd chaste life to keep To the lascivious pleasing of a lute.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

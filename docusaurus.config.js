@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/The-ultimate-shakespeare-collection/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/shake.gif',
   organizationName: 'Steven24K', // Usually your GitHub org/user name.
   projectName: 'The ultimate Shakespeare collection', // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: 'Shakespeare Wiki',
       logo: {
         alt: 'My Site Logo',
-        src: '../img/logo.svg',
+        src: './img/shake.gif',
       },
       items: [
         {

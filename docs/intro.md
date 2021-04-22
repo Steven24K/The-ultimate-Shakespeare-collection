@@ -2,34 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
+## All Shakespeare's work
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to ultimate library wich contains all the work of William Shakespeare. One of the best and most famous writers who ever lived. 
+His plays still have a huge influence on the way people write drama and all still being performed today. 
 
-## Getting Started
+![alt](shake.gif)
 
-Get started by **creating a new site**.
+Take a deep dive into this site and learn everyting about Shakespeare!
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+## Made by
 
-## Generate a new site
+This site is put together by [Steven Koerts](https://stevenkoerts.nl/), with help of Docusaurus and hosted on GitHub pages.
 
-Generate a new Docusaurus site using the **classic template**:
+All the scripts are scraped with a script from the website below. 
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/getting-started.md` and edit some lines: the site **reloads automatically** and display your changes.
+[source](http://shakespeare.mit.edu/)

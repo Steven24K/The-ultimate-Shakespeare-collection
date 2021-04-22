@@ -10,7 +10,7 @@ in configurating the site. You don't have to worry about setting up databases an
 
 **I dedicated this one to my man William Shakespeare, the greatest and still most influential writer who ever lived!**
 
-Because the layout is completly standardized people will recognize the documentation website with others and that will help them quickly find the right information when tey need it. 
+Because the layout is completly standardized people will recognize the documentation website with others and that will help them quickly find the right information when they need it. 
 
 ## Installation
 
@@ -20,7 +20,7 @@ yarn install
 
 ## Local Development
 
-> Look just one command tp start the whole project, that is nice. 
+> Look just one command to start the whole project, that is nice. 
 
 ```console
 yarn start
@@ -49,4 +49,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## Side effects 
 
-One side effect of using Docusaurus is that you don't have a backend. So it does not supply with your needs when you need things like authorization, payement transactions, CMS integration etc. But it does do the job to maintain your documentation in one GitHub repository and present it on a nice standardized website. 
+One side effect of using Docusaurus is that you don't have a backend. So it does not suffice with your needs when you need things like authorization, payement transactions, CMS integration etc. But it does do the job to maintain your documentation in one GitHub repository and present it on a nice standardized website. 
